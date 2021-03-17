@@ -39,6 +39,7 @@ class LampTrainees:
         self.driver.driver.find_element_by_xpath(var.close_button).click()
         sleep(3)
 
-
+    def close_page(self):
+        self.driver.driver.quit()
 
 
