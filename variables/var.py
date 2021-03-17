@@ -27,5 +27,6 @@ trainees_button = "//a[@href='/corporate/employee']"
 invite_button = "//span[contains(.,'+ Invite')]"
 add_employees_button = "/html//div[@id='app']/div[@role='document']/div/div/div/div/div[2]/div//input[@type='text']"
 employees_email = "tennie@yopmail.com"
-send_invite_button = "/html//div[@id='app']/div[@role='document']/div/div/div/div[@class='row']/div[2]/div/div[1]/div[2]/button[@type='button']/span[@class='v-btn__content']"
+send_invite_button = "/html//div[@id='app']/div[@role='document']/div/div/div/div[@class='row']/div[2]/div/div[" \
+                     "1]/div[2]/button[@type='button']/span[@class='v-btn__content'] "
 close_button = "//div[@id='app']/div[@role='document']/div/div/div/div[@class='row']/div[2]/div/div[3]/button[2]/span[@class='v-btn__content']"
